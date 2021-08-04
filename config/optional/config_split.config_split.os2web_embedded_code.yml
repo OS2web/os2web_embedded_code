@@ -1,0 +1,20 @@
+langcode: da
+status: true
+dependencies: {  }
+id: os2web_embedded_code
+label: 'OS2Web Embedded code block'
+description: ''
+folder: modules/contrib/os2web_embedded_code/config/optional
+module: {  }
+theme: {  }
+blacklist:
+  - 'os2web_embedded_code*'
+  - '*os2web_embedded_code'
+  - '*os2web_embedded_code*'
+  - 'field_embedded_code*'
+  - '*field_embedded_code'
+  - '*field_embedded_code*'
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false
+weight: 0

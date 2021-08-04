@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function os2web_embedded_code_theme($existing, $type, $theme, $path) {
+  $i = 1;
+  return [
+    'field__block_content__field_embedded_code__os2web_embedded_code__full' => [
+      'base hook' => 'field',
+    ],
+//    'paragraph__os2web_section_paragraph' => [
+//      'base hook' => 'paragraph',
+//    ],
+//    'paragraph__os2web_section_promoted_pages' => [
+//      'base hook' => 'paragraph',
+//    ],
+  ];
+}

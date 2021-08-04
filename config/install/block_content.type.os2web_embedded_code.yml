@@ -1,0 +1,7 @@
+langcode: da
+status: true
+dependencies: {  }
+id: os2web_embedded_code
+label: 'OS2WEB Embedded code'
+revision: 0
+description: 'Kan bruges til at indlejre eks. javascripts, CSS eller andet.'

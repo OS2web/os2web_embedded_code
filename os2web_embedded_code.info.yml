@@ -1,0 +1,7 @@
+name: 'OS2Web Embedded code block'
+type: module
+description: 'Embedded code block module.'
+package: OS2
+core: 8.x
+core_version_requirement: ^8 || ^9
+
